@@ -1,0 +1,32 @@
+/* #menu {
+  display: none;
+  user-select: none;
+  cursor: pointer;
+}
+checked > label > ul {
+  height: 100px;
+} */
+
+.glav {
+  display: flex;
+}
+
+#curs {
+  border: solid 2px red;
+  display: block;
+  width: 200px;
+  height: 20px;
+  transition-property: width;
+  transition-duration: 5s;
+  transition-timing-function: linear;
+  transition-delay: 5s;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+#curs:hover {
+  background: linear-gradient(to right, red, yellow);
+}
